@@ -3,8 +3,8 @@
 
 # BOM?
 1x Seeed XIAO RP2040
-
 9x Cherry MX Switches
+
 9x Blank DSA keycaps
 9x Through-hole 1N4148 Diodes
 1x OLED Display 0.91 inch
