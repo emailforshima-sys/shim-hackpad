@@ -19,3 +19,7 @@
 1x bottom case (3d print)
 
 1x top case (3d print)
+
+
+<img width="961" height="481" alt="pcbschem" src="https://github.com/user-attachments/assets/de0f8cf3-7881-40cb-9639-4116e1e691ec" />
+
