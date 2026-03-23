@@ -1,2 +1,2 @@
 # shim-hackpad
-...shim's hackpad is designed for digital art (krita) and other shortcuts for browser functions, it has nine keys, has a rotary encoder for zooming in drawings or scrolling in a website and a oled screen 
+...shim's hackpad is designed with Seeed XIAO RP2040, OLED display with 9 keys and i will program the keys, eventually...
