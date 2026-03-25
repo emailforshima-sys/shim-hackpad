@@ -14,7 +14,12 @@ Shim's hackpad is a custom-built keypad designed with Seeed XIAO RP2040, an OLED
 
 
 # BOM?
-https://github.com/emailforshima-sys/shim-hackpad/blob/main/BOM.csv
+
+| Header 1 | Header 2 |
+|---|---|
+| Row 1, Col 1 | Row 1, Col 2 |
+| Row 2, Col 1 | Row 2, Col 2 |
+
 
 
 
