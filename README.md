@@ -14,7 +14,7 @@ Shim's hackpad is designed with Seeed XIAO RP2040, OLED display with 9 keys and 
 
 
 # BOM?
-| Part  | quanitty |
+| Part  | quantity |
 | ------------- | ------------- |
 | Seeed XIAO RP2040  | 1x  |
 | Cherry MX Switches  | 9x  |
