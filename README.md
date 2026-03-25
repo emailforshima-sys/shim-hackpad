@@ -31,7 +31,7 @@
 
 1x top case (3d print)
 
-| First Header  | Second Header |
+| Part  | quanitty |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
