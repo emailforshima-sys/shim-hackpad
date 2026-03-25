@@ -24,7 +24,7 @@
 | OLED Display 0.91 inch  | 1x  |
 | EC11 rotary encoder  | 1x  |
 | M3×16 mm Screws  | 4x  |
-| 3d print  | x2 bottom and top case  |
+| 3d print (top and bottom) | x2   |
 
 
 
