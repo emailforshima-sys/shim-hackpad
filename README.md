@@ -8,7 +8,8 @@
 <img width="676" height="538" alt="pcbroute" src="https://github.com/user-attachments/assets/9dadefe4-2d88-404d-9a0c-5cd645c0fb88" />
 
 # CAD
-<img width="704" height="530" alt="cadcase" src="https://github.com/user-attachments/assets/463ec0a0-bce5-465b-89b2-8260af001d7b" /> <img width="732" height="538" alt="pcb3d" src="https://github.com/user-attachments/assets/228d50d8-1017-4719-86ad-ea6dbd2c7120" />
+<img width="704" height="530" alt="cadcase" src="https://github.com/user-attachments/assets/463ec0a0-bce5-465b-89b2-8260af001d7b" /> <img width="708" height="538" alt="pcb3d" src="https://github.com/user-attachments/assets/434eb6a5-747e-4600-b1db-7ce5ba853d25" />
+
 
 
 # BOM?
