@@ -14,8 +14,7 @@
 
 
 # BOM?
-BOM.csv
-
+https://github.com/CKacha/Hackpad/blob/main/BOM.csv
 
 
 
