@@ -1,5 +1,5 @@
 # shim-hackpad
-...shim's hackpad is designed with Seeed XIAO RP2040, OLED display with 9 keys and i will program the keys, eventually... im planning to use this keypad for digital art and browser shortcuts! Im planning for the first 3 keys to be for shortcuts and the rest for digital art
+Shim's hackpad is designed with Seeed XIAO RP2040, OLED display with 9 keys and i will program the keys, eventually... im planning to use this keypad for digital art and browser shortcuts! Im planning for the first 3 keys to be for shortcuts and the rest for digital art
 
 ..the KMK firmware is still not completed (yet)
 
