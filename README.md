@@ -13,6 +13,9 @@
 <img width="704" height="530" alt="cadcase" src="https://github.com/user-attachments/assets/463ec0a0-bce5-465b-89b2-8260af001d7b" /> <img width="708" height="538" alt="pcb3d" src="https://github.com/user-attachments/assets/434eb6a5-747e-4600-b1db-7ce5ba853d25" />
 
 
+# BOM?
+
+
 
 
 
