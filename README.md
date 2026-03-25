@@ -14,7 +14,7 @@
 
 
 # BOM?
-bom.csv
+BOM.csv
 
 
 
