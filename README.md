@@ -1,7 +1,7 @@
 # shim-hackpad
 Shim's hackpad is a custom-built keypad designed with Seeed XIAO RP2040, an OLED display, and a rotary encoder. It has 9 keys that I will program (eventually). I’m planning to use the first 3 keys for basic shortcuts like browser controls on chrome, and the remaining 6 keys for digital art tools like undo, changing the brush, or other quick actions. The rotary encoder can be used for things like scrolling or zooming, I made this project to make my drawing shortcuts faster.
 
-..The KMK firmware is still not completed (yet), for now the keys should work ( like ABC..). now I'm working on the code for the oled with CircuitPython
+..The KMK firmware is still not completed (yet), for now the keys should work ( like ABC..). now I'm working on the code for the oled (CircuitPython)
 
 
 # schematic
