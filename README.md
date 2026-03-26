@@ -5,10 +5,11 @@ Shim's hackpad is a custom-built keypad designed with Seeed XIAO RP2040, an OLED
 
 
 # schematic
-<img width="961" height="481" alt="pcbschem" src="https://github.com/user-attachments/assets/de0f8cf3-7881-40cb-9639-4116e1e691ec" />
+<img width="980" height="520" alt="image (11)" src="https://github.com/user-attachments/assets/95d997c0-228b-4a3a-acc9-1c147c85f554" />
 
 # pcb
-<img width="676" height="538" alt="pcbroute" src="https://github.com/user-attachments/assets/9dadefe4-2d88-404d-9a0c-5cd645c0fb88" />
+<img width="680" height="548" alt="image (10)" src="https://github.com/user-attachments/assets/13a6e937-d4c7-4f67-a9ba-ea5606b93d2c" />
+
 
 # CAD
 <img width="704" height="530" alt="cadcase" src="https://github.com/user-attachments/assets/463ec0a0-bce5-465b-89b2-8260af001d7b" /> <img width="708" height="538" alt="pcb3d" src="https://github.com/user-attachments/assets/434eb6a5-747e-4600-b1db-7ce5ba853d25" />
