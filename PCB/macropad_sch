@@ -1639,7 +1639,7 @@
 				(pin input line
 					(at 1.27 -2.54 180)
 					(length 2.54)
-					(name "SDA"
+					(name "SCL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1657,7 +1657,7 @@
 				(pin input line
 					(at 1.27 -6.35 180)
 					(length 2.54)
-					(name "SCL"
+					(name "SDA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1767,16 +1767,6 @@
 			(type default)
 		)
 		(uuid "120ff9f0-678a-4a4f-80f5-0d56597ccefb")
-	)
-	(wire
-		(pts
-			(xy 184.15 83.82) (xy 180.34 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13460bf8-814b-4884-b54b-7afe715f83c9")
 	)
 	(wire
 		(pts
@@ -1900,16 +1890,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 80.01) (xy 193.04 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46912f2b-9774-4f2e-bc83-df7c9621275f")
-	)
-	(wire
-		(pts
 			(xy 224.79 110.49) (xy 224.79 133.35)
 		)
 		(stroke
@@ -2000,6 +1980,26 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 80.01) (xy 195.58 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80a795a8-15f3-440d-969c-df9c093b95b4")
+	)
+	(wire
+		(pts
+			(xy 182.88 87.63) (xy 180.34 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89701ab5-f765-4fb4-8046-518f580fcedb")
+	)
+	(wire
+		(pts
 			(xy 224.79 133.35) (xy 205.74 133.35)
 		)
 		(stroke
@@ -2067,6 +2067,16 @@
 			(type default)
 		)
 		(uuid "a7db53eb-57c9-4cd7-b4eb-041f89a235eb")
+	)
+	(wire
+		(pts
+			(xy 180.34 83.82) (xy 186.69 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa6f2dd9-5bcb-4bb9-89c3-2ba90fd0c239")
 	)
 	(wire
 		(pts
@@ -2200,6 +2210,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 91.44) (xy 180.34 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e03ad5e3-aaeb-4df7-a079-4e36d2809f5b")
+	)
+	(wire
+		(pts
 			(xy 77.47 104.14) (xy 102.87 104.14)
 		)
 		(stroke
@@ -2256,6 +2276,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 182.88 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ceb2ada-116e-492a-a572-d92abb43c627")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.3728 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2548,7 +2590,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 180.34 87.63 0)
+		(at 182.88 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2556,31 +2598,9 @@
 			)
 			(justify left)
 		)
-		(uuid "cfd766ed-00ac-4085-89e6-e353b433395d")
+		(uuid "d0c32eb6-2ac0-426c-8fd3-aeff99a0052e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.8933 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape input)
-		(at 180.34 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e72ac422-4499-4d66-a9d9-48b67492c30d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.8328 91.44 0)
+			(at 189.4333 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2720,6 +2740,80 @@
 			(project "macropad"
 				(path "/32a4c82c-616a-4180-8ab5-537872889f6a"
 					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "screens for HACKpad:oled_1")
+		(at 179.07 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2947ba52-a420-4956-895b-eccdbc02a566")
+		(property "Reference" "OLED1"
+			(at 165.735 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 165.735 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "491ca645-a56e-4b75-a87e-0992c9de5aee")
+		)
+		(pin "3"
+			(uuid "bef05be1-d657-4bb9-a551-c61d10ede150")
+		)
+		(pin "2"
+			(uuid "79bf6d3b-1ec4-4dc5-b192-99c3a438ef78")
+		)
+		(pin "1"
+			(uuid "47770cb1-3ed8-4fa7-a71f-a0e0f03aba9e")
+		)
+		(instances
+			(project ""
+				(path "/32a4c82c-616a-4180-8ab5-537872889f6a"
+					(reference "OLED1")
 					(unit 1)
 				)
 			)
@@ -3027,80 +3121,6 @@
 			(project "macropad"
 				(path "/32a4c82c-616a-4180-8ab5-537872889f6a"
 					(reference "SW9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "screens for HACKpad:oled_1")
-		(at 179.07 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d8e2f5d-7ae1-4048-98c8-5446f3358683")
-		(property "Reference" "OLED1"
-			(at 165.735 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 165.735 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Display:SSD1306 0.91"
-			(at 179.07 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 179.07 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "5631b0d7-b20e-4b69-8d34-710b64e420da")
-		)
-		(pin "4"
-			(uuid "cde4a094-b697-496a-9a3c-add6c3c45b36")
-		)
-		(pin "2"
-			(uuid "b1b56b60-1515-457a-b07a-bc1c8527ab0a")
-		)
-		(pin "1"
-			(uuid "6fbb6c64-0e61-48f2-8beb-24b30623a271")
-		)
-		(instances
-			(project ""
-				(path "/32a4c82c-616a-4180-8ab5-537872889f6a"
-					(reference "OLED1")
 					(unit 1)
 				)
 			)
@@ -3460,7 +3480,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 80.01 0)
+		(at 195.58 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3469,7 +3489,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b5f1bbc-4bd5-417a-b35f-c24fec0c5cb2")
 		(property "Reference" "#PWR05"
-			(at 193.04 86.36 0)
+			(at 195.58 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3478,7 +3498,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 85.09 0)
+			(at 195.58 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3486,7 +3506,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 80.01 0)
+			(at 195.58 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3495,7 +3515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 80.01 0)
+			(at 195.58 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3504,7 +3524,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 80.01 0)
+			(at 195.58 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3678,7 +3698,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 184.15 83.82 0)
+		(at 186.69 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3687,7 +3707,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac22ae58-7a00-4ded-a1b9-29e8632a7d0d")
 		(property "Reference" "#PWR06"
-			(at 184.15 87.63 0)
+			(at 186.69 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3696,7 +3716,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 184.15 78.74 0)
+			(at 186.69 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3704,7 +3724,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 83.82 0)
+			(at 186.69 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3713,7 +3733,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 83.82 0)
+			(at 186.69 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3722,7 +3742,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 184.15 83.82 0)
+			(at 186.69 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
