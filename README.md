@@ -3,6 +3,7 @@ Shim's hackpad is a custom-built keypad designed with Seeed XIAO RP2040, an OLED
 
 ..The KMK firmware is still not completed (yet), for now the keys should work ( like ABC..). now I'm working on the code for the oled
 
+
 # schematic
 <img width="961" height="481" alt="pcbschem" src="https://github.com/user-attachments/assets/de0f8cf3-7881-40cb-9639-4116e1e691ec" />
 
